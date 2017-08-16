@@ -1,0 +1,24 @@
+{
+  "name": "agile-player-controller-app",
+  "title": "agile-player-controller-app",
+  "description": "agile-player-controller-app",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Regis"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "jspm": {
+    "name": "agile-player-controller-app",
+    "format": "global",
+    "directories": {
+      "lib": "src"
+    },
+    "main": "agile-player-controller-app",
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.21"
+    }
+  }
+}
